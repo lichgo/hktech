@@ -1,0 +1,22 @@
+{
+  "name": "hktech",
+  "version": "0.0.0",
+  "description": "hktech meetup and list",
+  "main": "home.js",
+  "scripts": {
+    "test": "git repository: https://github.com/lichgo/hktech.git"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lichgo/hktech.git"
+  },
+  "keywords": [
+    "hktech"
+  ],
+  "author": "lichgo",
+  "license": "MIT",
+  "dependencies": {
+    "logfmt": "~0.18.1",
+    "express": "~3.4.8"
+  }
+}
