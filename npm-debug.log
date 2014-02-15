@@ -1,0 +1,302 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'clean-css' ]
+2 info using npm@1.3.24
+3 info using node@v0.10.25
+4 verbose cache add [ 'clean-css', null ]
+5 verbose cache add name=undefined spec="clean-css" args=["clean-css",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'clean-css',
+6 verbose parsed url   path: 'clean-css',
+6 verbose parsed url   href: 'clean-css' }
+7 silly lockFile acfb6dcb-clean-css clean-css
+8 verbose lock clean-css /Users/lichgo/.npm/acfb6dcb-clean-css.lock
+9 silly lockFile acfb6dcb-clean-css clean-css
+10 silly lockFile acfb6dcb-clean-css clean-css
+11 verbose addNamed [ 'clean-css', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile cce5386d-clean-css clean-css@
+14 verbose lock clean-css@ /Users/lichgo/.npm/cce5386d-clean-css.lock
+15 silly addNameRange { name: 'clean-css', range: '*', hasData: false }
+16 verbose url raw clean-css
+17 verbose url resolving [ 'https://registry.npmjs.org/', './clean-css' ]
+18 verbose url resolved https://registry.npmjs.org/clean-css
+19 info trying registry request attempt 1 at 23:42:58
+20 verbose etag "18L4FV8EOLPSIEG3B4SNLCCXO"
+21 http GET https://registry.npmjs.org/clean-css
+22 http 200 https://registry.npmjs.org/clean-css
+23 silly registry.get cb [ 200,
+23 silly registry.get   { date: 'Sat, 15 Feb 2014 15:42:59 GMT',
+23 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+23 silly registry.get     etag: '"50NJSFI4U3VLNCEWEUISY595A"',
+23 silly registry.get     'content-type': 'application/json',
+23 silly registry.get     via: '1.1 varnish',
+23 silly registry.get     'cache-control': 'max-age=1',
+23 silly registry.get     'content-length': '73130',
+23 silly registry.get     'accept-ranges': 'bytes',
+23 silly registry.get     age: '116892',
+23 silly registry.get     'x-served-by': 'cache-v36-ASH, cache-hk93-HKG',
+23 silly registry.get     'x-cache': 'HIT, MISS',
+23 silly registry.get     'x-cache-hits': '1234, 0',
+23 silly registry.get     'x-timer': 'S1392478979.164485931,VS0,VS103,VE103,VE684',
+23 silly registry.get     vary: 'Accept',
+23 silly registry.get     'keep-alive': 'timeout=10, max=50',
+23 silly registry.get     connection: 'Keep-Alive' } ]
+24 silly addNameRange number 2 { name: 'clean-css', range: '*', hasData: true }
+25 silly addNameRange versions [ 'clean-css',
+25 silly addNameRange   [ '0.1.0',
+25 silly addNameRange     '0.2.0',
+25 silly addNameRange     '0.2.1',
+25 silly addNameRange     '0.2.2',
+25 silly addNameRange     '0.2.3',
+25 silly addNameRange     '0.2.4',
+25 silly addNameRange     '0.2.5',
+25 silly addNameRange     '0.2.6',
+25 silly addNameRange     '0.3.0',
+25 silly addNameRange     '0.3.1',
+25 silly addNameRange     '0.3.2',
+25 silly addNameRange     '0.3.3',
+25 silly addNameRange     '0.4.0',
+25 silly addNameRange     '0.4.1',
+25 silly addNameRange     '0.4.2',
+25 silly addNameRange     '0.5.0',
+25 silly addNameRange     '0.6.0',
+25 silly addNameRange     '0.7.0',
+25 silly addNameRange     '0.8.0',
+25 silly addNameRange     '0.8.1',
+25 silly addNameRange     '0.8.2',
+25 silly addNameRange     '0.8.3',
+25 silly addNameRange     '0.9.0',
+25 silly addNameRange     '0.9.1',
+25 silly addNameRange     '0.10.0',
+25 silly addNameRange     '0.10.1',
+25 silly addNameRange     '0.10.2',
+25 silly addNameRange     '1.0.0',
+25 silly addNameRange     '1.0.1',
+25 silly addNameRange     '1.0.2',
+25 silly addNameRange     '1.0.3',
+25 silly addNameRange     '1.0.4',
+25 silly addNameRange     '1.0.5',
+25 silly addNameRange     '1.0.6',
+25 silly addNameRange     '1.0.7',
+25 silly addNameRange     '1.0.8',
+25 silly addNameRange     '1.0.9',
+25 silly addNameRange     '1.0.10',
+25 silly addNameRange     '1.0.11',
+25 silly addNameRange     '1.0.12',
+25 silly addNameRange     '1.1.0',
+25 silly addNameRange     '1.1.1',
+25 silly addNameRange     '1.1.2',
+25 silly addNameRange     '1.1.3',
+25 silly addNameRange     '1.1.4',
+25 silly addNameRange     '1.1.5',
+25 silly addNameRange     '1.1.6',
+25 silly addNameRange     '1.1.7',
+25 silly addNameRange     '2.0.0',
+25 silly addNameRange     '2.0.1',
+25 silly addNameRange     '2.0.2',
+25 silly addNameRange     '2.0.3',
+25 silly addNameRange     '2.0.4',
+25 silly addNameRange     '2.0.5',
+25 silly addNameRange     '2.0.6',
+25 silly addNameRange     '2.0.7',
+25 silly addNameRange     '2.0.8',
+25 silly addNameRange     '2.1.0' ] ]
+26 verbose addNamed [ 'clean-css', '2.1.0' ]
+27 verbose addNamed [ '2.1.0', '2.1.0' ]
+28 silly lockFile 1d9b4d09-clean-css-2-1-0 clean-css@2.1.0
+29 verbose lock clean-css@2.1.0 /Users/lichgo/.npm/1d9b4d09-clean-css-2-1-0.lock
+30 silly lockFile e8f29e3f-rg-clean-css-clean-css-2-1-0-tgz https://registry.npmjs.org/clean-css/-/clean-css-2.1.0.tgz
+31 verbose lock https://registry.npmjs.org/clean-css/-/clean-css-2.1.0.tgz /Users/lichgo/.npm/e8f29e3f-rg-clean-css-clean-css-2-1-0-tgz.lock
+32 verbose addRemoteTarball [ 'https://registry.npmjs.org/clean-css/-/clean-css-2.1.0.tgz',
+32 verbose addRemoteTarball   '2884698408337a94c33cc028acd13ea4a532132e' ]
+33 info retry fetch attempt 1 at 23:42:59
+34 verbose fetch to= /var/folders/x9/_pfqnx_141j5k349jbkrx3xm0000gn/T/npm-23228-gTSFNrOA/1392478979977-0.8559957970865071/tmp.tgz
+35 http GET https://registry.npmjs.org/clean-css/-/clean-css-2.1.0.tgz
+36 http 200 https://registry.npmjs.org/clean-css/-/clean-css-2.1.0.tgz
+37 verbose tar unpack /var/folders/x9/_pfqnx_141j5k349jbkrx3xm0000gn/T/npm-23228-gTSFNrOA/1392478979977-0.8559957970865071/tmp.tgz
+38 silly lockFile c31c7421-79977-0-8559957970865071-package tar:///var/folders/x9/_pfqnx_141j5k349jbkrx3xm0000gn/T/npm-23228-gTSFNrOA/1392478979977-0.8559957970865071/package
+39 verbose lock tar:///var/folders/x9/_pfqnx_141j5k349jbkrx3xm0000gn/T/npm-23228-gTSFNrOA/1392478979977-0.8559957970865071/package /Users/lichgo/.npm/c31c7421-79977-0-8559957970865071-package.lock
+40 silly lockFile e627f597-79977-0-8559957970865071-tmp-tgz tar:///var/folders/x9/_pfqnx_141j5k349jbkrx3xm0000gn/T/npm-23228-gTSFNrOA/1392478979977-0.8559957970865071/tmp.tgz
+41 verbose lock tar:///var/folders/x9/_pfqnx_141j5k349jbkrx3xm0000gn/T/npm-23228-gTSFNrOA/1392478979977-0.8559957970865071/tmp.tgz /Users/lichgo/.npm/e627f597-79977-0-8559957970865071-tmp-tgz.lock
+42 silly gunzTarPerm modes [ '755', '644' ]
+43 silly gunzTarPerm extractEntry package.json
+44 silly gunzTarPerm extractEntry README.md
+45 silly gunzTarPerm extractEntry LICENSE
+46 silly gunzTarPerm extractEntry index.js
+47 silly gunzTarPerm extractEntry History.md
+48 silly gunzTarPerm extractEntry bin/cleancss
+49 silly gunzTarPerm extractEntry lib/clean.js
+50 silly gunzTarPerm extractEntry lib/colors/hsl-to-hex.js
+51 silly gunzTarPerm extractEntry lib/colors/long-to-short-hex.js
+52 silly gunzTarPerm extractEntry lib/colors/rgb-to-hex.js
+53 silly gunzTarPerm extractEntry lib/colors/shortener.js
+54 silly gunzTarPerm extractEntry lib/images/url-rebase.js
+55 silly gunzTarPerm extractEntry lib/images/url-rewriter.js
+56 silly gunzTarPerm extractEntry lib/imports/inliner.js
+57 silly gunzTarPerm extractEntry lib/properties/optimizer.js
+58 silly gunzTarPerm extractEntry lib/properties/shorthand-notations.js
+59 silly gunzTarPerm extractEntry lib/selectors/empty-removal.js
+60 silly gunzTarPerm extractEntry lib/selectors/optimizer.js
+61 silly gunzTarPerm extractEntry lib/selectors/tokenizer.js
+62 silly gunzTarPerm extractEntry lib/text/comments.js
+63 silly gunzTarPerm extractEntry lib/text/escape-store.js
+64 silly gunzTarPerm extractEntry lib/text/expressions.js
+65 silly gunzTarPerm extractEntry lib/text/free.js
+66 silly gunzTarPerm extractEntry lib/text/urls.js
+67 silly lockFile c31c7421-79977-0-8559957970865071-package tar:///var/folders/x9/_pfqnx_141j5k349jbkrx3xm0000gn/T/npm-23228-gTSFNrOA/1392478979977-0.8559957970865071/package
+68 silly lockFile c31c7421-79977-0-8559957970865071-package tar:///var/folders/x9/_pfqnx_141j5k349jbkrx3xm0000gn/T/npm-23228-gTSFNrOA/1392478979977-0.8559957970865071/package
+69 silly lockFile e627f597-79977-0-8559957970865071-tmp-tgz tar:///var/folders/x9/_pfqnx_141j5k349jbkrx3xm0000gn/T/npm-23228-gTSFNrOA/1392478979977-0.8559957970865071/tmp.tgz
+70 silly lockFile e627f597-79977-0-8559957970865071-tmp-tgz tar:///var/folders/x9/_pfqnx_141j5k349jbkrx3xm0000gn/T/npm-23228-gTSFNrOA/1392478979977-0.8559957970865071/tmp.tgz
+71 verbose tar pack [ '/Users/lichgo/.npm/clean-css/2.1.0/package.tgz',
+71 verbose tar pack   '/var/folders/x9/_pfqnx_141j5k349jbkrx3xm0000gn/T/npm-23228-gTSFNrOA/1392478979977-0.8559957970865071/package' ]
+72 verbose tarball /Users/lichgo/.npm/clean-css/2.1.0/package.tgz
+73 verbose folder /var/folders/x9/_pfqnx_141j5k349jbkrx3xm0000gn/T/npm-23228-gTSFNrOA/1392478979977-0.8559957970865071/package
+74 silly lockFile c31c7421-79977-0-8559957970865071-package tar:///var/folders/x9/_pfqnx_141j5k349jbkrx3xm0000gn/T/npm-23228-gTSFNrOA/1392478979977-0.8559957970865071/package
+75 verbose lock tar:///var/folders/x9/_pfqnx_141j5k349jbkrx3xm0000gn/T/npm-23228-gTSFNrOA/1392478979977-0.8559957970865071/package /Users/lichgo/.npm/c31c7421-79977-0-8559957970865071-package.lock
+76 silly lockFile fe3fd02a--npm-clean-css-2-1-0-package-tgz tar:///Users/lichgo/.npm/clean-css/2.1.0/package.tgz
+77 verbose lock tar:///Users/lichgo/.npm/clean-css/2.1.0/package.tgz /Users/lichgo/.npm/fe3fd02a--npm-clean-css-2-1-0-package-tgz.lock
+78 silly lockFile c31c7421-79977-0-8559957970865071-package tar:///var/folders/x9/_pfqnx_141j5k349jbkrx3xm0000gn/T/npm-23228-gTSFNrOA/1392478979977-0.8559957970865071/package
+79 silly lockFile c31c7421-79977-0-8559957970865071-package tar:///var/folders/x9/_pfqnx_141j5k349jbkrx3xm0000gn/T/npm-23228-gTSFNrOA/1392478979977-0.8559957970865071/package
+80 silly lockFile fe3fd02a--npm-clean-css-2-1-0-package-tgz tar:///Users/lichgo/.npm/clean-css/2.1.0/package.tgz
+81 silly lockFile fe3fd02a--npm-clean-css-2-1-0-package-tgz tar:///Users/lichgo/.npm/clean-css/2.1.0/package.tgz
+82 silly lockFile 039cff54-chgo-npm-clean-css-2-1-0-package /Users/lichgo/.npm/clean-css/2.1.0/package
+83 verbose lock /Users/lichgo/.npm/clean-css/2.1.0/package /Users/lichgo/.npm/039cff54-chgo-npm-clean-css-2-1-0-package.lock
+84 silly lockFile 039cff54-chgo-npm-clean-css-2-1-0-package /Users/lichgo/.npm/clean-css/2.1.0/package
+85 silly lockFile 039cff54-chgo-npm-clean-css-2-1-0-package /Users/lichgo/.npm/clean-css/2.1.0/package
+86 verbose tar unpack /Users/lichgo/.npm/clean-css/2.1.0/package.tgz
+87 silly lockFile e1216a27-chgo-npm-clean-css-2-1-0-package tar:///Users/lichgo/.npm/clean-css/2.1.0/package
+88 verbose lock tar:///Users/lichgo/.npm/clean-css/2.1.0/package /Users/lichgo/.npm/e1216a27-chgo-npm-clean-css-2-1-0-package.lock
+89 silly lockFile fe3fd02a--npm-clean-css-2-1-0-package-tgz tar:///Users/lichgo/.npm/clean-css/2.1.0/package.tgz
+90 verbose lock tar:///Users/lichgo/.npm/clean-css/2.1.0/package.tgz /Users/lichgo/.npm/fe3fd02a--npm-clean-css-2-1-0-package-tgz.lock
+91 silly gunzTarPerm modes [ '755', '644' ]
+92 silly gunzTarPerm extractEntry package.json
+93 silly gunzTarPerm extractEntry README.md
+94 silly gunzTarPerm extractEntry LICENSE
+95 silly gunzTarPerm extractEntry index.js
+96 silly gunzTarPerm extractEntry History.md
+97 silly gunzTarPerm extractEntry bin/cleancss
+98 silly gunzTarPerm extractEntry lib/clean.js
+99 silly gunzTarPerm extractEntry lib/colors/hsl-to-hex.js
+100 silly gunzTarPerm extractEntry lib/colors/long-to-short-hex.js
+101 silly gunzTarPerm extractEntry lib/colors/rgb-to-hex.js
+102 silly gunzTarPerm extractEntry lib/colors/shortener.js
+103 silly gunzTarPerm extractEntry lib/images/url-rebase.js
+104 silly gunzTarPerm extractEntry lib/images/url-rewriter.js
+105 silly gunzTarPerm extractEntry lib/imports/inliner.js
+106 silly gunzTarPerm extractEntry lib/properties/optimizer.js
+107 silly gunzTarPerm extractEntry lib/properties/shorthand-notations.js
+108 silly gunzTarPerm extractEntry lib/selectors/empty-removal.js
+109 silly gunzTarPerm extractEntry lib/selectors/optimizer.js
+110 silly gunzTarPerm extractEntry lib/selectors/tokenizer.js
+111 silly gunzTarPerm extractEntry lib/text/comments.js
+112 silly gunzTarPerm extractEntry lib/text/escape-store.js
+113 silly gunzTarPerm extractEntry lib/text/expressions.js
+114 silly gunzTarPerm extractEntry lib/text/free.js
+115 silly gunzTarPerm extractEntry lib/text/urls.js
+116 silly lockFile e1216a27-chgo-npm-clean-css-2-1-0-package tar:///Users/lichgo/.npm/clean-css/2.1.0/package
+117 silly lockFile e1216a27-chgo-npm-clean-css-2-1-0-package tar:///Users/lichgo/.npm/clean-css/2.1.0/package
+118 silly lockFile fe3fd02a--npm-clean-css-2-1-0-package-tgz tar:///Users/lichgo/.npm/clean-css/2.1.0/package.tgz
+119 silly lockFile fe3fd02a--npm-clean-css-2-1-0-package-tgz tar:///Users/lichgo/.npm/clean-css/2.1.0/package.tgz
+120 verbose chmod /Users/lichgo/.npm/clean-css/2.1.0/package.tgz 644
+121 verbose chown /Users/lichgo/.npm/clean-css/2.1.0/package.tgz [ 501, 20 ]
+122 silly lockFile e8f29e3f-rg-clean-css-clean-css-2-1-0-tgz https://registry.npmjs.org/clean-css/-/clean-css-2.1.0.tgz
+123 silly lockFile e8f29e3f-rg-clean-css-clean-css-2-1-0-tgz https://registry.npmjs.org/clean-css/-/clean-css-2.1.0.tgz
+124 silly lockFile 1d9b4d09-clean-css-2-1-0 clean-css@2.1.0
+125 silly lockFile 1d9b4d09-clean-css-2-1-0 clean-css@2.1.0
+126 silly lockFile cce5386d-clean-css clean-css@
+127 silly lockFile cce5386d-clean-css clean-css@
+128 silly resolved [ { name: 'clean-css',
+128 silly resolved     version: '2.1.0',
+128 silly resolved     author:
+128 silly resolved      { name: 'Jakub Pawlowicz',
+128 silly resolved        email: 'jakub@goalsmashers.com',
+128 silly resolved        url: 'http://twitter.com/GoalSmashers' },
+128 silly resolved     description: 'A well-tested CSS minifier',
+128 silly resolved     license: 'MIT',
+128 silly resolved     keywords: [ 'css', 'minifier' ],
+128 silly resolved     homepage: 'https://github.com/GoalSmashers/clean-css',
+128 silly resolved     repository:
+128 silly resolved      { type: 'git',
+128 silly resolved        url: 'https://github.com/GoalSmashers/clean-css.git' },
+128 silly resolved     bugs: { url: 'https://github.com/GoalSmashers/clean-css/issues' },
+128 silly resolved     bin: { cleancss: './bin/cleancss' },
+128 silly resolved     main: 'index.js',
+128 silly resolved     files: [ 'bin', 'lib', 'History.md', 'index.js', 'LICENSE' ],
+128 silly resolved     scripts:
+128 silly resolved      { bench: 'node ./test/bench.js',
+128 silly resolved        check: 'jshint ./bin/cleancss .',
+128 silly resolved        prepublish: 'jshint .',
+128 silly resolved        test: 'vows' },
+128 silly resolved     dependencies: { commander: '2.1.x' },
+128 silly resolved     devDependencies: { jshint: '2.4.x', nock: '0.27.x', vows: '0.7.x' },
+128 silly resolved     jshintConfig:
+128 silly resolved      { browser: false,
+128 silly resolved        camelcase: true,
+128 silly resolved        curly: false,
+128 silly resolved        eqeqeq: false,
+128 silly resolved        eqnull: true,
+128 silly resolved        immed: true,
+128 silly resolved        indent: 2,
+128 silly resolved        latedef: true,
+128 silly resolved        multistr: false,
+128 silly resolved        noarg: true,
+128 silly resolved        node: true,
+128 silly resolved        plusplus: false,
+128 silly resolved        quotmark: 'single',
+128 silly resolved        strict: false,
+128 silly resolved        trailing: true,
+128 silly resolved        undef: true,
+128 silly resolved        unused: true },
+128 silly resolved     engines: { node: '>=0.8.0' },
+128 silly resolved     readme: '[![NPM version](https://badge.fury.io/js/clean-css.png)](https://badge.fury.io/js/clean-css)\n[![Build Status](https://secure.travis-ci.org/GoalSmashers/clean-css.png)](https://travis-ci.org/GoalSmashers/clean-css)\n[![Dependency Status](https://david-dm.org/GoalSmashers/clean-css.png?theme=shields.io)](https://david-dm.org/GoalSmashers/clean-css)\n[![devDependency Status](https://david-dm.org/GoalSmashers/clean-css/dev-status.png?theme=shields.io)](https://david-dm.org/GoalSmashers/clean-css#info=devDependencies)\n\n## What is clean-css?\n\nClean-css is a fast and efficient [Node.js](http://nodejs.org/) library for minifying CSS files.\n\nAccording to [tests](http://goalsmashers.github.io/css-minification-benchmark/) it is one of the best available.\n\n\n## Usage\n\n### What are the requirements?\n\n```\nNode.js 0.8.0+ (tested on CentOS, Ubuntu, OS X 10.6+, and Windows 7+)\n```\n\n### How to install clean-css?\n\n```\nnpm install clean-css\n```\n\n### How to upgrade clean-css from 1.x to 2.x?\n\n#### Command-line interface (CLI)\n\n```\nnpm update clean-css\n```\n\nor point `package.json` to version 2.x. That\'s it!\n\n#### Node.js module\n\nUpdate `clean-css` as for CLI above.\nThen change your JavaScript code from:\n\n```js\nvar minimized = CleanCSS.process(source, options);\n```\n\ninto\n\n```js\nvar minimized = new CleanCSS(options).minify(source);\n```\n\nAnd you are done.\n\n### How to use clean-css CLI?\n\nClean-css accepts the following command line arguments (please make sure\nyou use `<source-file>` as the very last argument to avoid potential issues):\n\n```\ncleancss [options] <source-file>\n\n-h, --help                      Output usage information\n-v, --version                   Output the version number\n-b, --keep-line-breaks          Keep line breaks\n--s0                            Remove all special comments, i.e. /*! comment */\n--s1                            Remove all special comments but the first one\n-r, --root [root-path]          A root path to which resolve absolute @import rules\n                                and rebase relative URLs\n-o, --output [output-file]      Use [output-file] as output instead of STDOUT\n-s, --skip-import               Disable @import processing\n--skip-rebase                   Disable URLs rebasing\n--skip-advanced                 Disable advanced optimizations - selector & property merging,\n                                reduction, etc.\n--selectors-merge-mode [ie8|*]  DEPRECATED: Use --compatibility switch\n-c, --compatibility [ie7|ie8]   Force compatibility mode\n-d, --debug                     Shows debug information (minification time & compression efficiency)\n```\n\n#### Examples:\n\nTo minify a **public.css** file into **public-min.css** do:\n\n```\ncleancss -o public-min.css public.css\n```\n\nTo minify the same **public.css** into the standard output skip the `-o` parameter:\n\n```\ncleancss public.css\n```\n\nMore likely you would like to concatenate a couple of files.\nIf you are on a Unix-like system:\n\n```bash\ncat one.css two.css three.css | cleancss -o merged-and-minified.css\n```\n\nOn Windows:\n\n```bat\ntype one.css two.css three.css | cleancss -o merged-and-minified.css\n```\n\nOr even gzip the result at once:\n\n```bash\ncat one.css two.css three.css | cleancss | gzip -9 -c > merged-minified-and-gzipped.css.gz\n```\n\n### How to use clean-css programmatically?\n\n```js\nvar CleanCSS = require(\'clean-css\');\nvar source = \'a{font-weight:bold;}\';\nvar minimized = new CleanCSS().minify(source);\n```\n\nCleanCSS constructor accepts a hash as a parameter, i.e.,\n`new CleanCSS(options).minify(source)` with the following options available:\n\n* `keepSpecialComments` - `*` for keeping all (default), `1` for keeping first one only, `0` for removing all\n* `keepBreaks` - whether to keep line breaks (default is false)\n* `benchmark` - turns on benchmarking mode measuring time spent on cleaning up\n  (run `npm run bench` to see example)\n* `root` - path to resolve absolute `@import` rules and rebase relative URLs\n* `relativeTo` - path with which to resolve relative `@import` rules and URLs\n* `processImport` - whether to process `@import` rules\n* `noRebase` - whether to skip URLs rebasing\n* `noAdvanced` - set to true to disable advanced optimizations - selector & property merging, reduction, etc.\n* `selectorsMergeMode` - `ie8` for IE8 compatibility mode, `*` for merging all (default)\n* `debug` - set to true to get minification statistics under `stats` property (see `test/custom-test.js` for examples)\n\n### How to use clean-css with [Grunt](http://gruntjs.com)?\n\nSee [grunt-contrib-cssmin](https://github.com/gruntjs/grunt-contrib-cssmin) plugin.\n\n### What are the clean-css\' dev commands?\n\nFirst clone the source, then run:\n\n* `npm run bench` for clean-css benchmarks (see [test/bench.js](https://github.com/GoalSmashers/clean-css/blob/master/test/bench.js) for details)\n* `npm run check` to check JS sources with [JSHint](https://github.com/jshint/jshint/)\n* `npm test` for the test suite\n\n## How to contribute to clean-css?\n\n1. Fork it.\n2. Add test(s) veryfying the problem.\n3. Fix the problem.\n4. Make sure all tests still pass (`npm test`).\n5. Make sure your code doesn\'t break style rules (`npm run check`).\n6. Send a PR.\n\nIf you wonder where to add tests, go for:\n\n* `test/unit-test.js` if it\'s a simple scenario\n* `test/data/...` if it\'s a complex scenario (just add two files, input and expected output)\n* `test/binary-test.js` if it\'s related to `bin/cleancss` binary\n* `test/module-test.js` if it\'s related to importing `clean-css` as a module\n* `test/protocol-imports-test.js` if it fixes anything related to protocol `@import`s\n\n## Tips & Tricks\n\n### How to preserve a comment block?\n\nUse the `/*!` notation instead of the standard one `/*`:\n\n```css\n/*!\n  Important comments included in minified output.\n*/\n```\n\n### How to rebase relative image URLs\n\nClean-css will handle it automatically for you (since version 1.1) in the following cases:\n\n* When using the CLI:\n  1. Use an output path via `-o`/`--output` to rebase URLs as relative to the output file.\n  2. Use a root path via `-r`/`--root` to rebase URLs as absolute from the given root path.\n  3. If you specify both then `-r`/`--root` takes precendence.\n* When using clean-css as a library:\n  1. Use a combination of `relativeTo` and `target` options for relative rebase (same as 1 in CLI).\n  2. Use a combination of `relativeTo` and `root` options for absolute rebase (same as 2 in CLI).\n  3. `root` takes precendence over `target` as in CLI.\n\n## Acknowledgments\n\n* Vincent Voyer ([@vvo](https://github.com/vvo)) for a patch with better\n  empty element regex and for inspiring us to do many performance improvements\n  in 0.4 release.\n* Isaac ([@facelessuser](https://github.com/facelessuser)) for pointing out\n  a flaw in clean-css\' stateless mode.\n* Jan Michael Alonzo ([@jmalonzo](https://github.com/jmalonzo)) for a patch\n  removing node.js\' old `sys` package.\n* [@XhmikosR](https://github.com/XhmikosR) for suggesting new features\n  (option to remove special comments and strip out URLs quotation) and\n  pointing out numerous improvements (JSHint, media queries).\n* Anthony Barre ([@abarre](https://github.com/abarre)) for improvements to\n  `@import` processing, namely introducing the `--skip-import` /\n  `processImport` options.\n* Simon Altschuler ([@altschuler](https://github.com/altschuler)) for fixing\n  `@import` processing inside comments.\n\n## License\n\nClean-css is released under the [MIT License](https://github.com/GoalSmashers/clean-css/blob/master/LICENSE).\n',
+128 silly resolved     readmeFilename: 'README.md',
+128 silly resolved     _id: 'clean-css@2.1.0',
+128 silly resolved     dist: { shasum: '14a74222f14e8c5485f58f59110cc647c2d22d88' },
+128 silly resolved     _from: 'clean-css@',
+128 silly resolved     _resolved: 'https://registry.npmjs.org/clean-css/-/clean-css-2.1.0.tgz' } ]
+129 info install clean-css@2.1.0 into /usr/local/lib
+130 info installOne clean-css@2.1.0
+131 info /usr/local/lib/node_modules/clean-css unbuild
+132 verbose tar unpack /Users/lichgo/.npm/clean-css/2.1.0/package.tgz
+133 silly lockFile 46aeb420-local-lib-node-modules-clean-css tar:///usr/local/lib/node_modules/clean-css
+134 verbose lock tar:///usr/local/lib/node_modules/clean-css /Users/lichgo/.npm/46aeb420-local-lib-node-modules-clean-css.lock
+135 silly lockFile fe3fd02a--npm-clean-css-2-1-0-package-tgz tar:///Users/lichgo/.npm/clean-css/2.1.0/package.tgz
+136 verbose lock tar:///Users/lichgo/.npm/clean-css/2.1.0/package.tgz /Users/lichgo/.npm/fe3fd02a--npm-clean-css-2-1-0-package-tgz.lock
+137 silly gunzTarPerm modes [ '755', '644' ]
+138 error Error: EACCES, mkdir '/usr/local/lib/node_modules/clean-css'
+138 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/clean-css']
+138 error   errno: 3,
+138 error   code: 'EACCES',
+138 error   path: '/usr/local/lib/node_modules/clean-css',
+138 error   fstream_type: 'Directory',
+138 error   fstream_path: '/usr/local/lib/node_modules/clean-css',
+138 error   fstream_class: 'DirWriter',
+138 error   fstream_stack:
+138 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+138 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53',
+138 error      'Object.oncomplete (fs.js:107:15)' ] }
+139 error Please try running this command again as root/Administrator.
+140 error System Darwin 13.0.0
+141 error command "node" "/usr/local/bin/npm" "install" "-g" "clean-css"
+142 error cwd /Users/lichgo/sites/heruku/hktech
+143 error node -v v0.10.25
+144 error npm -v 1.3.24
+145 error path /usr/local/lib/node_modules/clean-css
+146 error fstream_path /usr/local/lib/node_modules/clean-css
+147 error fstream_type Directory
+148 error fstream_class DirWriter
+149 error code EACCES
+150 error errno 3
+151 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/clean-css'
+152 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+152 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53
+152 error fstream_stack Object.oncomplete (fs.js:107:15)
+153 verbose exit [ 3, true ]
