@@ -15,6 +15,8 @@ exports.add = function(req, res, next) {
 		return next(new Error('Param missing'));
 	req.db.companies.save({
 		name: req.body.name,
+		homepage: req.body.homepage,
+		about: req.body.about,
 		crunchbase: req.body.crunchbase,
 		linkedin: req.body.linkedin,
 		hiring: !(!req.body.hiring),
@@ -24,6 +26,6 @@ exports.add = function(req, res, next) {
 		if (err) return next(err);
 		if (!company) return next(new Error('Submit failed.'));
 		console.info('A new company %s is saved.', company.name);
-		res.send(200);
+		res.redirect('/');
 	});
 };

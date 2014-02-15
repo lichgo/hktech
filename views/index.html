@@ -5,22 +5,25 @@
 	<link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
 <body>
-<nav>
-
+<nav class="center">
+	<span id="logo"><span class="font200">Startup</span>X</span>
 </nav>
 <header>
-	<div class="ad">
+	<div class="ad center" title="The background photo comess from See-Ming Lee (http://www.flickr.com/photos/seeminglee/).">
 		<h1><span class="font200">MADE IN</span></h1>
-		<h1><span  class="font800">HONG KONG</span></h1>
-		<h2>HK-based tech meetup and startup list.</h2>
+		<h1><span>HONG KONG</span></h1>
+		<h2 class="font200">HK-based tech meetup and startup list</h2>
 	</div>
 </header>
-<section id="list">
+<section id="list" class="center">
 <ul>
 {% for company in companies %}
   <li>
-    <a href="{{ company.homepage }}" class="bold">{{ company.name }}</a>
+    <span class="name"><a href="{{ company.homepage }}" class="bold">{{ company.name }}</a></span>
     {% if company.hiring %} <span class="hiring"><a href="{{ company.jobs }}">We're hiring!</a></span> {% endif %}
+    <span class="about">
+    	{{ company.about }}
+    </span>
     <span class="profiles">
     	<a href="{{ company.crunchbase }}" class="{% if company.crunchbase == '' %}invisible{% endif %}">CrunchBase</a>
     	<a href="{{ company.linkedin }}" class="{% if company.linkedin === '' %}invisible{% endif %}">LinkedIn</a>
@@ -29,16 +32,23 @@
 {% endfor %}
 </ul>
 </section>
-<section id="form">
+<section id="form" class="center">
+<h3>How about your startup</h3>
 <form action="." method="POST">
 	<ul>
 		<li>
 			<label for="name">Name</label>
 			<input type="text" name="name" />
+			<span class="required" />
 		</li>
 		<li>
 			<label for="homepage">Homepage</label>
 			<input type="text" name="homepage" />
+			<span class="required" />
+		</li>
+		<li>
+			<label for="about">About</label>
+			<input type="text" name="about" />
 		</li>
 		<li><label for="crunchbase">CrunchBase Profile</label>
 			<input type="text" name="crunchbase" />
@@ -50,19 +60,20 @@
 		<li>
 			<label for="hiring">Are you hiring?</label>
 			<input type="checkbox" name="hiring" />
+			<span class="description">( if yes, please input your career site below )</span>
 		</li>
 		<li>
 			<label for="jobs">Career Site</label>
 			<input type="text" name="jobs" />
 		</li>
 		<li>
-			<input type="submit" value="submit" />
+			<input type="submit" class="btn" value="Submit" />
 		</li>
 	</ul>
 </form>
 </section>
 <footer>
-	@lichgo
+	<span>Creator: <a href="http://blog.lichgo.com">lichgo</a>. Credits: Photo from <a href="http://www.flickr.com/photos/seeminglee/">See-ming Lee</a> / <a href="https://www.heroku.com/‎">Heroku</a>.<span>
 </footer>
 </body>
 </html>
