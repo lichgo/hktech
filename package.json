@@ -1,8 +1,8 @@
 {
   "name": "hktech",
-  "version": "0.0.0",
-  "description": "hktech meetup and list",
-  "main": "home.js",
+  "version": "0.0.1",
+  "description": "HKtech meetup and startup list",
+  "main": "index.js",
   "scripts": {
     "test": "git repository: https://github.com/lichgo/hktech.git"
   },
