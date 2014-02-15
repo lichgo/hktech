@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hello, HK! - {{ sitename }}</title>
+</head>
+<body>
+
+Startups list
+<ul>
+{% for company in companies %}
+  <li>
+    <a href="{{ company.homepage }}">{{ company.name }}</a>
+    {% if company.hiring %} <span><a href="{{ company.jobs }}">We're hiring!<a></span> {% endif %}
+    <span>
+    	{% if company.crunchbase !== '' %}<a href="{{ company.crunchbase }}"><img src="static/img/crunchbase.gif" title="CrunchBase Profile" /></a>{% endif %}
+    	{% if company.linkedin !== '' %}<a href="{{ company.linkedin }}"><img src="static/img/linkedin.gif" title="LinkedIn Profile" /></a>{% endif %}
+    </span>
+  </li>
+{% endfor %}
+</ul>
+
+<form action="." method="POST">
+	<ul>
+		<li>
+			<label for="name">Name</label>
+			<input type="text" name="name" />
+		</li>
+		<li>
+			<label for="homepage">Homepage</label>
+			<input type="text" name="homepage" />
+		</li>
+		<li><label for="crunchbase">CrunchBase Profile</label>
+			<input type="text" name="crunchbase" />
+		</li>
+		<li>
+			<label for="linkedin">LinkedIn Profile</label>
+			<input type="text" name="linkedin" />
+		</li>
+		<li>
+			<label for="hiring">Are you hiring?</label>
+			<input type="checkbox" name="hiring" />
+		</li>
+		<li>
+			<label for="jobs">Career Site</label>
+			<input type="text" name="jobs" />
+		</li>
+		<li>
+			<input type="submit" value="submit" />
+		</li>
+	</ul>
+</form>
+
+</body>
+</html>
