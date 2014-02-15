@@ -5,7 +5,7 @@ var express = require('express'),
 	controllers = require('./controllers');
 
 var app = express(),
-	db = mongoskin.db('mongodb://lichgo:G12581012o_@troup.mongohq.com:10055/app21564874');
+	db = mongoskin.db(process.env.MONGOLAB_URI);
 
 swig.setDefaults({ cache: false });
 
