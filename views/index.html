@@ -1,24 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hello, HK! - {{ sitename }}</title>
+	<title>HK, run! - {{ sitename }}</title>
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
 <body>
+<nav>
 
-Startups list
+</nav>
+<header>
+	<div class="ad">
+		<h1><span class="font200">MADE IN</span></h1>
+		<h1><span  class="font800">HONG KONG</span></h1>
+		<h2>HK-based tech meetup and startup list.</h2>
+	</div>
+</header>
+<section id="list">
 <ul>
 {% for company in companies %}
   <li>
-    <a href="{{ company.homepage }}">{{ company.name }}</a>
-    {% if company.hiring %} <span><a href="{{ company.jobs }}">We're hiring!<a></span> {% endif %}
-    <span>
-    	{% if company.crunchbase !== '' %}<a href="{{ company.crunchbase }}"><img src="static/img/crunchbase.gif" title="CrunchBase Profile" /></a>{% endif %}
-    	{% if company.linkedin !== '' %}<a href="{{ company.linkedin }}"><img src="static/img/linkedin.gif" title="LinkedIn Profile" /></a>{% endif %}
+    <a href="{{ company.homepage }}" class="bold">{{ company.name }}</a>
+    {% if company.hiring %} <span class="hiring"><a href="{{ company.jobs }}">We're hiring!</a></span> {% endif %}
+    <span class="profiles">
+    	<a href="{{ company.crunchbase }}" class="{% if company.crunchbase == '' %}invisible{% endif %}">CrunchBase</a>
+    	<a href="{{ company.linkedin }}" class="{% if company.linkedin === '' %}invisible{% endif %}">LinkedIn</a>
     </span>
   </li>
 {% endfor %}
 </ul>
-
+</section>
+<section id="form">
 <form action="." method="POST">
 	<ul>
 		<li>
@@ -49,6 +60,9 @@ Startups list
 		</li>
 	</ul>
 </form>
-
+</section>
+<footer>
+	@lichgo
+</footer>
 </body>
 </html>

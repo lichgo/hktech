@@ -29,6 +29,9 @@ app.use(express.static(__dirname + '/static'));
 
 app.get('/', controllers.index);
 app.post('/', controllers.add);
+app.get('*', function(req, res) {
+	res.send(404);
+});
 
 app.listen(app.get('port'), function() {
 	console.info('Server started on port: ' + app.get('port'));
