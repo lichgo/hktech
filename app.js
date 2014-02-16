@@ -7,7 +7,7 @@ var express = require('express'),
 var app = express(),
 	db = mongoskin.db(process.env.MONGOLAB_URI);
 
-swig.setDefaults({ cache: false });
+// swig.setDefaults({ cache: false });
 
 app.set('sitename', 'Hong Kong Tech Meetup & Startups');
 app.set('port', process.env.PORT || 5000);
