@@ -57,6 +57,19 @@ nav {
 	color: #333;
 	line-height: 80px;
 }
+#menu {
+	position: absolute;
+	right: 0;
+	top: 30px;
+	text-transform: uppercase;
+}
+#menu a {
+	color: #666;
+	margin-left: 16px;
+}
+#menu a:hover {
+	color: #218bc3;
+}
 
 header {
 	height: 440px;
