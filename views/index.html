@@ -23,7 +23,7 @@
 <ul>
 {% for company in companies %}
   <li>
-    <span class="name"><a href="{{ company.homepage }}" class="bold">{{ company.name }}</a></span>
+    <span class="name"><a href="{{ company.homepage }}">{{ company.name }}</a></span>
     {% if company.hiring %} <span class="hiring"><a href="{{ company.jobs }}">We're hiring!</a></span> {% endif %}
     <span class="about">
     	{{ company.about }}
