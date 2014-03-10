@@ -113,6 +113,8 @@ header h2 {
 	font-size: 12px;
 	padding: 0 20px;
 	color: #999;
+	height: 54px;
+	overflow: hidden;
 }
 .profiles {
 	float: right;
